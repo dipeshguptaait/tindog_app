@@ -1,0 +1,149 @@
+body{
+  font-family: 'Montserrat';
+}
+#title{
+  background-color: #FA2FB5;
+}
+
+h1{
+  color:white;
+   font-size: 3rem;
+   line-height: 1.5;
+}
+.container-fluid{
+  padding:  3% 15% 3% 15%;
+}
+#mobile{
+  height: 550px;
+  width:280px;
+  transform: rotate(25deg);
+ position: absolute;
+ margin-left: 20px;
+}
+
+.navbar{
+  padding-bottom: 40px;
+}
+.nav-item{
+  padding: 30px 10px 30px 10px;
+  margin-right: 30px;
+}
+.navbar-brand{
+  font-size:50px;
+  font-family: 'Roboto', sans-serif;
+}
+button{
+  margin-right: 20px;
+  margin-bottom: 80px;
+}
+.box{
+  text-align: center;
+}
+.sym{
+  margin-left: 100px;
+  font-size: 50px;
+  margin-top: 50px;
+  color:#F37878;
+  padding-bottom: 10px;
+  padding-right: 80px;
+
+}
+#features{
+  padding-top: 50px;
+  background-color: white;
+  position: relative;
+
+
+}
+@media (max-width:780px) {
+  #title{
+    text-align: center;
+  }
+  #mobile{
+    position: static;
+    transform: rotate(0);
+  }
+
+
+}
+.sym:hover{
+  color:#EB4747;
+}
+.cnt{
+  margin-left: 20px;
+  font-size: 1.5rem;
+
+}
+.par{
+  color: gray;
+  font-family: sans-serif;
+  font-weight: bold;
+   margin-bottom: 50px;
+   font-size: 1.1rem;
+}
+#testimonials{
+  text-align: center;
+  background-color: #513265;
+  color:white;
+}
+.test-img{
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  margin: 50px 20px 20px 50px;
+}
+#press{
+  background-color: #513265;
+  text-align: center;
+  padding: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.t-h2{
+  font-family: 'Montserrat-bold';
+  font-size: 2.2rem;
+  line-height: 1.1;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.card{
+  text-align: center;
+}
+.b1{
+  width: 100%;
+  padding: 10px 0px 10px 0px;
+}
+.p-t{
+  text-align:center;
+  margin:50px;
+}
+#pricing p{
+  font-family: sans-serif;
+  font-style: none;
+  font-weight: 500;
+}
+#cta{
+  background-color: #B93160;
+  text-align: center;
+}
+#cta h3{
+  font-family: 'Montserrat';
+  color: white;
+
+  font-weight: bold;
+  font-size: 3.5rem;
+  padding:7% 15%;
+  line-height: 1.5;
+}
+#footer{
+  text-align: center;
+  font-family: cursive;
+ color: gray;
+ padding:7% 15%;
+}
+#footer i{
+  padding: 2px 2px;
+}
